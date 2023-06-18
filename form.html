@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="visit.css">
+</head>
+<body>
+    <div class="form">
+        <form action="" onsubmit="validatedata(event)">
+         <span>
+         <tr>
+           <td>
+             <label for="">User Name-</label>
+             <input type="text" placeholder="Username" id="Username" >
+             <p id="userError"></p>
+            </td>
+            
+            <br>
+            <br>
+            <tr>
+              <label for="password">password-</label>
+              <input type="password" name="password" id="pss" placeholder="*****" >
+              <p id="password"></p>
+            </tr>
+            
+           <br>
+           <br>
+           <br>
+           <td>
+             <label for="">Contact No.-</label>
+             <input type="number" name="number" id="number" placeholder="+91957272**" >
+           </td>
+           <br>
+           <br>
+           <br>
+           <td>
+           <labrl>Email I'd-</labrl>
+           <input type="email" name="Email" placeholder="sandeep@gmail.com" id="email" >
+        </td>
+        <br>
+        <br>
+        <br>
+        <td>
+           <labrl>Date-</labrl>
+            <input type="datetime-local" name=" datetime-local" id="date" placeholder="Date/time" >
+        </td>
+        <br>
+        <br>
+
+           <button type="submit">Submit</button>
+
+         </tr>
+       </span>
+        </form>
+      </div>
+      <script src="visit.js"></script>
+    </body>
+</html>

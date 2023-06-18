@@ -1,0 +1,151 @@
+@media screen and (max-width:767px) {
+    
+}
+
+@media screen and (max-width:500px) {
+    .header{
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .header2{
+        width: 100%;
+        font-size: 0.6rem;
+    }
+    .btn2 button {
+        width:15%;
+        height: 40%;
+        font-size: 0.5rem;
+    }
+    .btn2 input{
+        width:30%;
+        height: 50%;
+    }
+    .head3{
+        position: relative;
+        width: 100%;
+        /* font-size: 0.1rem; */
+    }
+    .head3{
+        background-image: url("serve-food_crop-1920x1080.webp");
+         text-align: center;
+          text-align:justify;
+         background-size: cover;
+         width: 100%;
+         /* height:100% */
+         height: 215px;
+        
+    }
+    .head3 img{
+        position: absolute;
+        width: 100%;
+        height: 20vw;
+        top: 80px;
+        right: 200px;
+    }
+   #bk{
+        position: absolute;
+        font-size: 0.5rem;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        
+    } 
+    #btn{
+        font-size: 0.4rem;
+        /* bottom: 200px; */
+    }
+    .place{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 10vw;
+    }
+   
+    .place1{
+        position: absolute;
+        /* width: 55%; */
+        height: 100%;
+        right: 100px;
+        top: -3px;
+    }
+    .place3{
+        position: absolute;
+        /* width: 50%; */
+        height: 100%;
+        right: 20px;
+        top: 5px;
+    } 
+    #experience{
+        width: 100%;
+        font-size: 0.5rem;
+        /* transition: 0.3s; */
+    }
+    .places{
+        width: 100%;
+        height:265px ;
+    }
+
+    .slide{
+        position: absolute;
+        width: 100%;
+        height: 265px;
+    }
+   /* /* .arrow{
+    width: 100%;
+    height: 20px;
+
+   } */
+   .arrow img{
+    position: relative;
+    width: 100%;
+    right: 70px;
+   }
+   #shift{
+    border-radius: 20%;
+    position:absolute;
+    top: 550px;
+    width: 100%;
+    height: 45px;
+    width: 45px;
+    right: 27px;
+     gap: 56px;
+   } 
+   #leftshift{
+    border-radius: 20%;
+    position:absolute;
+  /* bottom: 90px; */
+    left: 20px;
+    top: 550px;    
+    width: 100px;
+    height: 49px;
+    width: 40px;
+   }
+   #Ad{
+    position: absolute;
+    width: 100%;
+    font-size: 1rem;
+    bottom: 50px;
+    /* top: 0px;     */
+   }
+    .botm{
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        font-size: 0.5rem;
+        height: 40px;
+
+    }
+    #event{
+        width: 100%;
+        margin-left: 40%;
+    }
+    #Discover{
+        width: 100%;
+    }
+    #Information{
+        width: 100%;
+    }
+}
+@media screen and (max-width:380px){
+    
+}
